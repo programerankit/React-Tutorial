@@ -36,7 +36,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // reactElement  //this element created by react.createElement. our bundler all jsx code convert in this format.
   
   // <React.StrictMode>
-    // <App />
+     <App />
   // </React.StrictMode>,
 
 
