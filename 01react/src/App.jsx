@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import Card from './Components/Card'
-import arr from './assets/obj'
+import { useState } from "react";
+import "./App.css";
+import Card from "./Components/Card";
+import arr from "./assets/obj";
+import useCurrencyInfo from "./Hooks/useCurrencyInfo";
 function App() {
-  
-console.log(arr)
+  //useCurrencyInfo("usd");
+
+  console.log('arr');
   return (
     <>
-    <div className="flex-auto">
+    <h1>hello</h1>
+    
+      {/* <div className="flex-auto">
       {
         arr.map((value)=>{
           return(<>
@@ -16,9 +20,9 @@ console.log(arr)
         })
 
       }
-    </div>
+    </div> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
